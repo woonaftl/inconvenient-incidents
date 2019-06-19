@@ -2,6 +2,9 @@
 
 <!-- DONOR_PONY -->
 <!-- dunno how to do this without overwriting the whole event -->
+<mod:findName type="event" name="DONOR_PONY">
+	<mod:removeTag/>
+</mod:findName>
 
 <event name="DONOR_PONY" unique="true">
 	<text id="event_DONOR_PONY_text"/>

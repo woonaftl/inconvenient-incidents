@@ -136,13 +136,13 @@
 </eventList>
 <eventList name="W_ROCK_DESOLATE_TRIBE_SHUTTLE">
 	<event>
-		<text id="W_ROCK_DESOLATE_TRIBE_SHITTLE_TEXT_10"/>
+		<text id="W_ROCK_DESOLATE_TRIBE_SHUTTLE_TEXT_10"/>
 	</event>
 	<event>
-		<text id="W_ROCK_DESOLATE_TRIBE_SHITTLE_TEXT_11"/>
+		<text id="W_ROCK_DESOLATE_TRIBE_SHUTTLE_TEXT_11"/>
 		<removeCrew>
 			<clone>true</clone>
-			<text id="W_ROCK_DESOLATE_TRIBE_SHITTLE_TEXT_12"/>
+			<text id="W_ROCK_DESOLATE_TRIBE_SHUTTLE_TEXT_12"/>
 		</removeCrew>
 	</event>
 </eventList>
