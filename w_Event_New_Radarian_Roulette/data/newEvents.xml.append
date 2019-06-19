@@ -17,7 +17,7 @@
 				<event>
 					<text id="W_RADARIAN_ROULETTE_TEXT_6"/>
 					<item_modify>
-						<item type="scrap" min="-25" max="-20"/>
+						<item type="scrap" min="-19" max="-12"/>
 					</item_modify>
 					<choice hidden="true" req="sensors" lvl="0" max_group="0" blue="false">
 						<text id="W_RADARIAN_ROULETTE_TEXT_7"/>

@@ -9,7 +9,7 @@
 <event name="DONOR_PONY" unique="true">
 	<text id="event_DONOR_PONY_text"/>
 	<choice hidden="true">
-		<text id="event_DONOR_PONY_c1_text"/>
+		<text id="event_DONOR_PONY_c1_choice"/>
 		<event load="W_PONY_LIST"/>
 	</choice>
 	<choice hidden="true">
