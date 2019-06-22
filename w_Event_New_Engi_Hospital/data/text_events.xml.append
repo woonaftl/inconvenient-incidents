@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<text name="W_ENGI_SWAP_MEDICAL_TEXT_0">As you jump in, you are contacted by a human from a nearby Engi station. "Please, help me. My wife is going to deliver a baby, this is a research station, but these Engi do not know anything about human physiology. We have to deliver her to an actual hospital as soon as possible."</text>
-<text name="W_ENGI_SWAP_MEDICAL_TEXT_1">You arrived to a hospital station on time. The pregnant lady's water already broke, and she needs immediate medical attention. She and her husband are helped into a lifeboat and transferred to the station.</text>
-<text name="W_ENGI_SWAP_MEDICAL_TEXT_2">There are all kinds of medical equipment in the hospital. The Engi doctors are operating on all kinds of patients: saving burnt Mantis and dried Slugs, transplanting organs and removing tumors with their superior knowledge and technology.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_0">An intruder teleports on deck. You cannot believe your eyes: it's Doctor McCloney, a famous human researcher and inventor of a clonebay! "Spare me from your most honorable reception. This ship has to change course immediately, I am late for scientific conference in an Engi world nearby."</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_1">Doctor McCloney leaves the cabin reserved for VIP, safe from fire hazards and equipped with autonomous oxygen generator. "A bit late, but I won't blame you for the delay." The researcher leaves the ship, and you have time to explore what Engi have to offer.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_2">There are all kinds of medical equipment in the Engi system. The Engi doctors are operating on all kinds of patients: saving burnt Mantis and dried Slugs, transplanting organs and removing tumors with their superior knowledge and technology.</text>
 <text name="W_ENGI_SWAP_MEDICAL_TEXT_3">Leave.</text>
-<text name="W_ENGI_SWAP_MEDICAL_TEXT_4">Help the man.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_4">Give a lift to Doctor McCloney.</text>
 <text name="W_ENGI_SWAP_MEDICAL_TEXT_5">Decline.</text>
-<text name="W_ENGI_SWAP_MEDICAL_TEXT_6">"Thanks. I transferred the coordinates of a hospital station to your terminal. We have to be quick."</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_6">"Of course you will make sure that I attend the meeting as soon as possible. But did you know that I am not Doctor McCloney himself, just one of his countless clones. I am the only person in the Federation who is legally allowed to have clones."</text>
 <text name="W_ENGI_SWAP_MEDICAL_TEXT_MED_0">One of the Engi doctors learns that you are one of the last remnants of Federation force and offers to help you. "Crew immortality. Mission success probability increase: 0.174%."</text>
 <text name="W_ENGI_SWAP_MEDICAL_TEXT_MED_1">Swap your medbay for clonebay.</text>
 <text name="W_ENGI_SWAP_MEDICAL_TEXT_MED_2">The medbay is uninstalled, and Engi laborers bring a cloning system as a replacement. The crew transfers their DNA data. They are not looking forward to getting cloned, but do not question your orders.</text>
@@ -14,7 +14,7 @@
 <text name="W_ENGI_SWAP_MEDICAL_TEXT_MED_4">"Med-Bot Dispersal. Area of effect wound treatment. Mission success probability increase: 0.002%."</text>
 <text name="W_ENGI_SWAP_MEDICAL_TEXT_CLONE_0">One of the Engi doctors learns that you are one of the last remnants of Federation force and offers to help you. "Medical facilities. System interchange."</text>
 <text name="W_ENGI_SWAP_MEDICAL_TEXT_CLONE_1">Swap your clonebay for medbay.</text>
-<text name="W_ENGI_SWAP_MEDICAL_TEXT_CLONE_2">The Engi from the station help you with installation. They clear the DNA data and remove your cloning system and install a new medbay in its place.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_CLONE_2">The Engi from the station help you with installation. They clear the DNA data and remove your cloning system and install a new medbay in its place. Leaving the system, you make sure not to cross paths with Doctor McCloney again.</text>
 <text name="W_ENGI_SWAP_MEDICAL_TEXT_NONE_0">One of the Engi doctors learns that you are one of the last remnants of Federation force and offers to help you. "Medical facilities. Clonebay recommended."</text>
 <text name="W_ENGI_SWAP_MEDICAL_TEXT_NONE_1">Install a medbay.</text>
 <text name="W_ENGI_SWAP_MEDICAL_TEXT_NONE_2">For a small amount of scrap, the Engi workers agree to install a medical system on your ship. The doctors from the hospital provide medications and observe the installation process.</text>
