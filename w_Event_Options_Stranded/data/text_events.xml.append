@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_STRANDED_ASTEROID_COLLISION_TEXT_0">As you prepare to land on the surface of the moon, your sensors detect a giant asteroid flying in the direction of the moon. According to onboard terminal, you have 2 hours 7 minutes before the collision.</text>
+<text name="W_STRANDED_ASTEROID_COLLISION_TEXT_1">Deal with the asteroid first.</text>
+<text name="W_STRANDED_ASTEROID_COLLISION_TEXT_2">Land on the moon surface anyway.</text>
+
+<text name="W_STRANDED_ASTEROID_COLLISION_DIVERT_TEXT_0">You guide your ship towards the asteroid. A closer inspection shows its crust consists primarily of silicate minerals and its diameter is approximately 50 kilometers. Conventional weapons like lasers or missiles will hardly help here.</text>
+<text name="W_STRANDED_ASTEROID_COLLISION_DIVERT_TEXT_1">There is nothing we can do. But there is still some time to explore the moon.</text>
+<text name="W_STRANDED_ASTEROID_COLLISION_DIVERT_TEXT_2">(Rock Plating) Ram the asteroid multiple times, diverting it from the moon.</text>
+<text name="W_STRANDED_ASTEROID_COLLISION_DIVERT_TEXT_3">You ram the asteroid again and again with engines at full thrust. The enhanced hull plating ensures the ship leaves the fight with an asteroid unscathed.</text>
+<text name="W_STRANDED_ASTEROID_COLLISION_DIVERT_TEXT_4">(Rock) Your crewmember claims to know this "rock".</text>
+<text name="W_STRANDED_ASTEROID_COLLISION_DIVERT_TEXT_5">The Rock crewmember leaves the ship in a shuttle, landing on an asteroid. Rock drums some kind of code with their limbs on asteroid surface and the asteroid changes its course immediately aiming for the lifeless planet instead.</text>
+<text name="W_STRANDED_ASTEROID_COLLISION_DIVERT_TEXT_6">(Beam) Cut the asteroid into pieces and divert them from the moon one by one.</text>
+<text name="W_STRANDED_ASTEROID_COLLISION_DIVERT_TEXT_7">The onboard computer calculated an optimal plan how to split the asteroid drawing it away from the moon's surface in minimal time. Several pieces will land on a nearby planet tonight. Others will continue their journey through space.</text>
+<text name="W_STRANDED_ASTEROID_COLLISION_DIVERT_TEXT_8">Finally land on a moon's surface and investigate a distress signal.</text>
+
+<text name="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_0">A lone Slug is waiting for you submerged in a bathtub full of unknown liquid. "Ah, hello, sssspace travelers. Have you brought the sssupplies that I requesssted? I need ssome alien sssunscreen and the newessst issue of "Sssmug Slug" magazine."</text>
+<text name="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_1">This moon is doomed! An asteroid is going to collide with it in an hour! You have to leave immediately!</text>
+<text name="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_2">The Slug is unimpressed. "Thisss moon is a gold mine and it's mine. I am not leaving it for anyone. An assssteroid? You could have thought of sssomething sssmarter. Now leave me alone."</text>
+<text name="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_3">There is not enough time to convince the Slug. Leave.</text>
+<text name="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_4">Shoot the Slug and take everything he has.</text>
+<text name="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_5">It seems that the Slugs are quite careful and hide their belongings well. You explore their dwelling but cannot find anything useful. Time to leave.</text>
+<text name="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_6">Share supplies with a Slug, hoping to get a reward.</text>
+<text name="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_7">The Slug offers some FTL fuel as a payment and starts going through the latest issue of the magazine without paying you any attention. Time to leave.</text>
+<text name="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_8">Claim to have saved the Slug from an asteroid.</text>
+<text name="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_9">At first the Slug did not believe you, but after seeing trajectory data and a recording of your encounter with an asteroid he thanks you. "I am grateful. I haven't met sssuch capable courierssss before. Allow me to reward you." The Slug leaves and returns with some scrap and an augmentation.</text>

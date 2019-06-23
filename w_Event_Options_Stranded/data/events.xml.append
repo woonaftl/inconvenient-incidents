@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="STRANDED">
+	<mod-append:event load="W_STRANDED_ASTEROID_COLLISION"/>
+</mod:findName>
+
+<event name="W_STRANDED_ASTEROID_COLLISION">
+	<text id="W_STRANDED_ASTEROID_COLLISION_TEXT_0"/>
+	<choice hidden="true">
+		<text id="W_STRANDED_ASTEROID_COLLISION_TEXT_1"/>
+		<event load="W_STRANDED_ASTEROID_COLLISION_DIVERT"/>
+	</choice>
+	<choice hidden="true">
+		<text id="W_STRANDED_ASTEROID_COLLISION_TEXT_2"/>
+		<event load="W_STRANDED_ASTEROID_COLLISION_MOON"/>
+	</choice>
+</event>
+
+<event name="W_STRANDED_ASTEROID_COLLISION_DIVERT">
+	<text id="W_STRANDED_ASTEROID_COLLISION_DIVERT_TEXT_0"/>
+	<choice hidden="true">
+		<text id="W_STRANDED_ASTEROID_COLLISION_DIVERT_TEXT_1"/>
+		<event load="W_STRANDED_ASTEROID_COLLISION_MOON"/>
+	</choice>
+	<choice hidden="true" req="ROCK_ARMOR">
+		<text id="W_STRANDED_ASTEROID_COLLISION_DIVERT_TEXT_2"/>
+		<event>
+			<text id="W_STRANDED_ASTEROID_COLLISION_DIVERT_TEXT_3"/>
+			<choice>
+				<text id="W_STRANDED_ASTEROID_COLLISION_DIVERT_TEXT_8"/>
+				<event load="W_STRANDED_ASTEROID_COLLISION_MOON_SAVED"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="rock">
+		<text id="W_STRANDED_ASTEROID_COLLISION_DIVERT_TEXT_4"/>
+		<event>
+			<text id="W_STRANDED_ASTEROID_COLLISION_DIVERT_TEXT_5"/>
+			<choice>
+				<text id="W_STRANDED_ASTEROID_COLLISION_DIVERT_TEXT_8"/>
+				<event load="W_STRANDED_ASTEROID_COLLISION_MOON_SAVED"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="WEAPONS_BEAM_DAMAGE">
+		<text id="W_STRANDED_ASTEROID_COLLISION_DIVERT_TEXT_6"/>
+		<event>
+			<text id="W_STRANDED_ASTEROID_COLLISION_DIVERT_TEXT_7"/>
+			<choice>
+				<text id="W_STRANDED_ASTEROID_COLLISION_DIVERT_TEXT_8"/>
+				<event load="W_STRANDED_ASTEROID_COLLISION_MOON_SAVED"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="W_STRANDED_ASTEROID_COLLISION_MOON">
+	<text id="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_0"/>
+	<choice hidden="true">
+		<text id="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_1"/>
+		<event>
+			<text id="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_2"/>
+			<choice>
+				<text id="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_3"/>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_4"/>
+		<event>
+			<text id="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_5"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_6"/>
+		<event>
+			<text id="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_7"/>
+			<choice>
+				<text id="continue"/>
+				<event>
+					<item_modify>
+						<item type="fuel" min="2" max="2"/>
+					</item_modify>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="W_STRANDED_ASTEROID_COLLISION_MOON_SAVED">
+	<text id="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_0"/>
+	<choice hidden="true">
+		<text id="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_4"/>
+		<event>
+			<text id="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_5"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_6"/>
+		<event>
+			<text id="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_7"/>
+			<choice>
+				<text id="continue"/>
+				<event>
+					<item_modify>
+						<item type="fuel" min="2" max="2"/>
+					</item_modify>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_8"/>
+		<event>
+			<text id="W_STRANDED_ASTEROID_COLLISION_MOON_TEXT_9"/>
+			<choice>
+				<text id="continue"/>
+				<event>
+					<autoReward level="MEDIUM">scrap_only</autoReward>
+					<augment name="SLUG_GEL"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
