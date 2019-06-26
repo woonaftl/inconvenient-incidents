@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="NEUTRAL_ROCK"> 
+	<mod-append:event load="W_ROCK_MISSIONARY"/>
+</mod:findName>
+<event name="W_ROCK_MISSIONARY" unique="true">
+	<text id="W_ROCK_MISSIONARY_TEXT_0"/>
+	<ship load="ROCK_SHIP" hostile="false"/>
+	<choice hidden="true">
+		<text id="W_ROCK_MISSIONARY_TEXT_1"/>
+		<event>
+			<text id="W_ROCK_MISSIONARY_TEXT_2"/>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true" req="rock">
+		<text id="W_ROCK_MISSIONARY_TEXT_3"/>
+		<event>
+			<text id="W_ROCK_MISSIONARY_TEXT_4"/>
+			<choice hidden="true">
+				<text id="W_ROCK_MISSIONARY_TEXT_5"/>
+				<event load="W_ROCK_MISSIONARY_FIRE"/>
+			</choice>
+			<choice hidden="true">
+				<text id="W_ROCK_MISSIONARY_TEXT_8"/>
+				<event load="W_ROCK_MISSIONARY_HELP"/>
+			</choice>
+			<choice hidden="true">
+				<text id="W_ROCK_MISSIONARY_TEXT_11"/>
+				<event load="W_ROCK_MISSIONARY_PRAY"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+<eventList name="W_ROCK_MISSIONARY_FIRE">
+	<event>
+		<text id="W_ROCK_MISSIONARY_TEXT_6"/>
+		<ship hostile="true"/>
+	</event>
+	<event>
+		<text id="W_ROCK_MISSIONARY_TEXT_7"/>
+		<autoReward level="low">scrap_only</autoReward>
+		<weapon name="BEAM_FIRE"/>
+	</event>
+</eventList>
+<eventList name="W_ROCK_MISSIONARY_HELP">
+	<event>
+		<text id="W_ROCK_MISSIONARY_TEXT_9"/>
+		<ship hostile="true"/>
+	</event>
+	<event>
+		<text id="W_ROCK_MISSIONARY_TEXT_10"/>
+		<autoReward level="low">scrap_only</autoReward>
+		<augment name="ROCK_ARMOR"/>
+	</event>
+</eventList>
+<eventList name="W_ROCK_MISSIONARY_PRAY">
+	<event>
+		<text id="W_ROCK_MISSIONARY_TEXT_12"/>
+		<ship hostile="true"/>
+	</event>
+	<event>
+		<text id="W_ROCK_MISSIONARY_TEXT_13"/>
+		<autoReward level="low">scrap_only</autoReward>
+		<augment name="SCRAP_COLLECTOR"/>
+	</event>
+</eventList>

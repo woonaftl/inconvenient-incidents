@@ -18,6 +18,13 @@
 <text name="W_MANTIS_SUN_WRECK_TEXT_4">Leave the dangerous area immediately.</text>
 <text name="W_MANTIS_SUN_WRECK_TEXT_5">You approach the wreck. As the heat sensors turn red, and the fire starts in engines, you quickly understand why the Mantis ship was destroyed.</text>
 
+<!-- POTENTIAL FIGHT WITH REBEL SHIP AND ASB -->
+<text name="W_REBEL_POTENTIAL_ASB_FIGHT_TEXT_0">You arrive at the beacon to locate a small Rebel scout orbiting a heavily fortified planet nearby. Luckily, the Rebels haven't noticed your arrival yet but that can change in a moment.</text>
+<text name="W_REBEL_POTENTIAL_ASB_FIGHT_TEXT_1">Preemptively attack the Rebel ship.</text>
+<text name="W_REBEL_POTENTIAL_ASB_FIGHT_TEXT_2">As soon as you lock on your weapons, the Rebel ship notices a threat and retaliates. To make matters worse, another danger is identified by your sensors. The planetary defense system has come online and is going to fire at you in a few moments!</text>
+<text name="W_REBEL_POTENTIAL_ASB_FIGHT_TEXT_3">Charge FTL drive.</text>
+<text name="W_REBEL_POTENTIAL_ASB_FIGHT_TEXT_4">The Rebel scout does not notice your ship. You are ready to jump to next beacon.</text>
+
 <!-- ROCK PULSAR -->
 <text name="W_ROCK_PULSAR_TEXT_0">The beacon is located too close to a pulsating star. Captain of the rock ship nearby is enraged. "Why are my shields not working again? Let me leave this wretched place!"</text>
 <text name="W_ROCK_PULSAR_TEXT_1">Advise him to turn shields off entirely to prevent them from being ionized.</text>

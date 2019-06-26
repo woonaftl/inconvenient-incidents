@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- POTENTIAL FIGHT WITH REBEL SHIP AND ASB -->
+
+<mod:findName type="eventList" name="NEUTRAL_REBEL"> 
+	<mod-append:event load="W_REBEL_POTENTIAL_ASB_FIGHT"/>
+</mod:findName>
+<event name="W_REBEL_POTENTIAL_ASB_FIGHT" unique="true">
+	<text id="W_REBEL_POTENTIAL_ASB_FIGHT_TEXT_0" planet="PLANET_POPULATED"/>
+	<choice hidden="true">
+		<text id="W_REBEL_POTENTIAL_ASB_FIGHT_TEXT_1"/>
+		<event>
+			<text id="W_REBEL_POTENTIAL_ASB_FIGHT_TEXT_2"/>
+			<environment type="PDS" target="player"/>
+			<ship load="REBEL" hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_REBEL_POTENTIAL_ASB_FIGHT_TEXT_3"/>
+		<event>
+			<text id="W_REBEL_POTENTIAL_ASB_FIGHT_TEXT_4"/>
+		</event>
+	</choice>
+</event>
