@@ -10,11 +10,6 @@
 	<event load="W_TRUE_NOTHING_PIRATE"/>
 	<event load="W_TRUE_NOTHING_PIRATE"/>
 	<event load="W_TRUE_NOTHING_PIRATE"/>
-	<event load="W_TRUE_NOTHING_PIRATE"/>
-	<event load="W_TRUE_NOTHING_PIRATE"/>
-	<event load="W_TRUE_NOTHING_PIRATE"/>
-	<event load="W_TRUE_NOTHING_PIRATE"/>
-	<event load="W_TRUE_NOTHING_PIRATE"/>
 </eventList>
 
 <event name="W_TRUE_NOTHING_PIRATE">

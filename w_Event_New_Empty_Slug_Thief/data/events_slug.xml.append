@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="NEBULA_NOTHING_SLUG"> 
+	<mod-append:event load="W_SLUG_SNEAKY_THIEF"/>
+</mod:findName>
+<event name="W_SLUG_SNEAKY_THIEF">
+	<environment type="nebula"/>
+	<text id="W_SLUG_SNEAKY_THIEF_TEXT_0"/>
+	<choice hidden="true">
+		<text id="continue"/>
+		<event load="W_SLUG_SNEAKY_THIEF_LIST"/>
+	</choice>
+	<choice hidden="true" req="slug">
+		<text id="W_SLUG_SNEAKY_THIEF_TEXT_1"/>
+		<event load="W_SLUG_SNEAKY_THIEF_BOARDER"/>
+	</choice>
+	<choice hidden="true" req="LIFE_SCANNER">
+		<text id="W_SLUG_SNEAKY_THIEF_TEXT_2"/>
+		<event load="W_SLUG_SNEAKY_THIEF_BOARDER"/>
+	</choice>
+	<choice hidden="true" req="doors" lvl="2">
+		<text id="W_SLUG_SNEAKY_THIEF_TEXT_3"/>
+		<event/>
+	</choice>
+</event>
+<eventList name="W_SLUG_SNEAKY_THIEF_LIST">
+	<event>
+		<text id="W_SLUG_SNEAKY_THIEF_TEXT_4"/>
+		<item_modify>
+			<item type="fuel" min="-3" max="-1"/>
+		</item_modify>
+	</event>
+	<event>
+		<text id="W_SLUG_SNEAKY_THIEF_TEXT_5"/>
+		<item_modify>
+			<item type="missiles" min="-5" max="-2"/>
+		</item_modify>
+	</event>
+	<event>
+		<text id="W_SLUG_SNEAKY_THIEF_TEXT_6"/>
+		<item_modify>
+			<item type="scrap" min="-10" max="-5"/>
+		</item_modify>
+	</event>
+	<event>
+		<text id="W_SLUG_SNEAKY_THIEF_TEXT_7"/>
+		<item_modify>
+			<item type="drones" min="-3" max="-1"/>
+		</item_modify>
+	</event>
+</eventList>
+<event name="W_SLUG_SNEAKY_THIEF_BOARDER">
+	<text id="W_SLUG_SNEAKY_THIEF_TEXT_8"/>
+	<boarders min="1" max="1" class="slug"/>
+</event>

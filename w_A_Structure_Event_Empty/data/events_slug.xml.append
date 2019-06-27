@@ -10,11 +10,6 @@
 	<event load="W_TRUE_NOTHING_SLUG"/>
 	<event load="W_TRUE_NOTHING_SLUG"/>
 	<event load="W_TRUE_NOTHING_SLUG"/>
-	<event load="W_TRUE_NOTHING_SLUG"/>
-	<event load="W_TRUE_NOTHING_SLUG"/>
-	<event load="W_TRUE_NOTHING_SLUG"/>
-	<event load="W_TRUE_NOTHING_SLUG"/>
-	<event load="W_TRUE_NOTHING_SLUG"/>
 </eventList>
 
 <event name="W_TRUE_NOTHING_SLUG">
@@ -26,11 +21,6 @@
 </mod:findName>
 
 <eventList name="NEBULA_NOTHING_SLUG">
-	<event load="W_TRUE_NEBULA_NOTHING_SLUG"/>
-	<event load="W_TRUE_NEBULA_NOTHING_SLUG"/>
-	<event load="W_TRUE_NEBULA_NOTHING_SLUG"/>
-	<event load="W_TRUE_NEBULA_NOTHING_SLUG"/>
-	<event load="W_TRUE_NEBULA_NOTHING_SLUG"/>
 	<event load="W_TRUE_NEBULA_NOTHING_SLUG"/>
 	<event load="W_TRUE_NEBULA_NOTHING_SLUG"/>
 	<event load="W_TRUE_NEBULA_NOTHING_SLUG"/>

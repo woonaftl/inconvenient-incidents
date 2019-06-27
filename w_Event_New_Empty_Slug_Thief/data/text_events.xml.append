@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_SLUG_SNEAKY_THIEF_TEXT_0">The beacon you arrived at is located in a dense nebula cloud. With sensors offline, you feel vulnerable but no attack comes.</text>
+<text name="W_SLUG_SNEAKY_THIEF_TEXT_1">(Slug) Your crewmember senses disturbance in the hold.</text>
+<text name="W_SLUG_SNEAKY_THIEF_TEXT_2">(Lifeform Scanner) The scanner detects intruder aboard the ship.</text>
+<text name="W_SLUG_SNEAKY_THIEF_TEXT_3">(Improved doors) Lock all the doors just in case.</text>
+<text name="W_SLUG_SNEAKY_THIEF_TEXT_4">As you leave the dense part of the nebula behind, your crew notices that a part of the fuel reserves disappeared.</text>
+<text name="W_SLUG_SNEAKY_THIEF_TEXT_5">As you leave the dense part of the nebula behind, your weapon operator notices that several missiles disappeared from ammo storage.</text>
+<text name="W_SLUG_SNEAKY_THIEF_TEXT_6">As you leave the dense part of the nebula behind, you notice that some scrap material disappeared from the hold.</text>
+<text name="W_SLUG_SNEAKY_THIEF_TEXT_7">As you leave the dense part of the nebula behind, one of your crewmembers notices that several drone parts disappeared from the storage.</text>
+<text name="W_SLUG_SNEAKY_THIEF_TEXT_8">Intruder! A sneaky Slug tried to take advantage of the nebula cloud and steal some cargo from your hold. Thankfully, he was detected and can now be stopped.</text>

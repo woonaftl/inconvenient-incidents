@@ -10,11 +10,6 @@
 	<event load="W_TRUE_NOTHING_ENGI"/>
 	<event load="W_TRUE_NOTHING_ENGI"/>
 	<event load="W_TRUE_NOTHING_ENGI"/>
-	<event load="W_TRUE_NOTHING_ENGI"/>
-	<event load="W_TRUE_NOTHING_ENGI"/>
-	<event load="W_TRUE_NOTHING_ENGI"/>
-	<event load="W_TRUE_NOTHING_ENGI"/>
-	<event load="W_TRUE_NOTHING_ENGI"/>
 </eventList>
 
 <event name="W_TRUE_NOTHING_ENGI">
