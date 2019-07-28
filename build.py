@@ -13,15 +13,12 @@ import xml.etree.ElementTree as ET
 # Parameters
 Prefix = 'w_'
 Output = 'Inconvenient Incidents' # aka mod title
-ForumLink = 'create_new_thread'
+ForumLink = 'https://subsetgames.com/forum/viewtopic.php?f=11&t=34668'
 AlternateLinks = ['https://github.com/woonaftl/inconvenient-incidents']
-Release = '1'
+Release = '1.1'
 ProjectDesc = "A modification which adds new events to FTL: \
 Advanced Edition without changing the vanilla experience too much or \
-disrupting balance.\n\nThe mod is NOT compatible with other overhaul mods \
-such as:\nArsenal+\nCaptain's Edition\nCaptain's Remix\nStation's Job \
-or others\n\nIf you want to contribute to the mod, fork the project or \
-use assets in your own mod, follow the Github link. Everyone is welcome!"
+disrupting balance."
 ProtectedXML = ( 
     'achievements.xml', 
     'anaerobic_bomber.xml', 
