@@ -37,10 +37,10 @@
 <text name="W_GAME_SHOW_Q3_TEXT_4">8 systems, 4 subsystems.</text>
 <text name="W_GAME_SHOW_Q3_TEXT_5">"You are right. What's the maximum possible power level of the Drone Control subsystem?"</text>
 <text name="W_GAME_SHOW_Q3_TEXT_6">"Correct. Which weapon does NOT exist?"</text>
-<text name="W_GAME_SHOW_Q3_TEXT_7">Hull Laser II.</text>
-<text name="W_GAME_SHOW_Q3_TEXT_8">Ion Blast II.</text>
-<text name="W_GAME_SHOW_Q3_TEXT_9">Ion Charger II.</text>
-<text name="W_GAME_SHOW_Q3_TEXT_10">Laser Charger II.</text>
+<text name="W_GAME_SHOW_Q3_TEXT_7">Heavy Crystal Mark II.</text>
+<text name="W_GAME_SHOW_Q3_TEXT_8">Ion Blast Mark II.</text>
+<text name="W_GAME_SHOW_Q3_TEXT_9">Hull Missiles Mark II.</text>
+<text name="W_GAME_SHOW_Q3_TEXT_10">Laser Charger Mark II.</text>
 <text name="W_GAME_SHOW_Q3_TEXT_11">"A question sent in by an Engi trader. How much scrap will 11 fuel,  8 missiles, and 13 drone parts cost in a regular store?"</text>
 
 <text name="W_GAME_SHOW_Q4_TEXT_0">"Next! What's the name of the famous Mantis pirate?"</text>
