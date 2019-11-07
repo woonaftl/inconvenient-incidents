@@ -15,7 +15,7 @@ Prefix = 'w_'
 Output = 'Inconvenient Incidents' # aka mod title
 ForumLink = 'https://subsetgames.com/forum/viewtopic.php?f=11&t=34668'
 AlternateLinks = ['https://github.com/woonaftl/inconvenient-incidents']
-Release = '1.2'
+Release = '1.3'
 ProjectDesc = "A modification which adds new events to FTL: \
 Advanced Edition without changing the vanilla experience too much or \
 disrupting balance."
